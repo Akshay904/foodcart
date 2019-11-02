@@ -1,0 +1,22 @@
+<div>
+  <table border=1 width=100%>
+    <thead>
+      <tr>
+        <th>
+          Rollno
+        </th>
+        <th>
+          Name
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor='let s of stud'>
+        <td> {{ s.rollno }} </td>
+        <td>{{ s.name }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<br>

@@ -1,0 +1,23 @@
+<table>
+  <thead>
+    <tr>
+      <th>
+        code
+      </th>
+      <th>
+        name
+      </th>
+      <th>
+        disignation
+      </th>
+    </tr>
+  </thead>
+  <tr *ngFor='let e of emp'>
+    <td>
+      {{ e.code }}
+    </td>
+    <td>
+      {{ e.name }}
+    </td>
+  </tr>
+</table>
